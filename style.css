@@ -1,0 +1,311 @@
+
+@font-face {
+    font-family: 'aktiv';
+    src: url('fonts/AktivGroteskCorp-Bold.ttf') format('truetype');
+}
+body{
+    margin: 0;
+}
+.nav-bar{
+    /* position:fixed; */
+    height:90px;
+    background-color: #009b4e;;
+    display:grid;
+    grid-template-columns:200px 70px 65px 30px 130px 
+    30px 100px 30px 70px 400px 20px 30px 20px 
+    30px 20px 30px 20px 30px 20px 40px 20px;
+}
+
+.nav-bar img:hover{
+    cursor: pointer;
+    filter: invert(100%);
+}
+.logo-div{
+    margin-left: 25px; 
+}
+.logo{
+    background-color:#009b4e;
+    height:49px;
+    width: 140px;
+    margin: 16px 10px 16px 10px;
+    filter: none;     
+}
+.logo:hover{
+    filter: none;
+}
+
+.option-1{
+    font-size: 14px;
+    font-family: 'aktiv';
+    font-weight: bolder;
+    color: whitesmoke;
+    padding-top: 30px;
+}
+.option-1:hover{
+
+    border-bottom: black;
+    border-bottom-style: solid;
+    color:black;
+    border-bottom-width:thick;
+    cursor:pointer;
+}
+.option-2{
+    font-size: 14px;
+    font-family: 'aktiv';
+    font-weight: bolder;
+    color: whitesmoke;
+    padding-top: 30px;
+}
+.option-2:hover{
+
+    border-bottom:black;
+    border-bottom-style: solid;
+    color:black;
+    border-bottom-width:thick;
+    cursor:pointer;
+}
+
+
+.option-3{
+    font-size: 14px;
+    font-family: 'aktiv';
+    font-weight: bolder;
+    color: whitesmoke;
+    padding-top: 30px;
+}
+.option-3:hover{
+
+    border-bottom:black;
+    border-bottom-style: solid;
+    color:black;
+    border-bottom-width:thick;
+    cursor:pointer;
+}
+.option-4{
+    font-size: 14px;
+    font-family: 'aktiv';
+    font-weight: bolder;
+    color: whitesmoke;
+    padding-top: 30px;
+   
+}
+.option-4:hover{
+    border-bottom:black;
+    border-bottom-style: solid;
+    color:black;
+    border-bottom-width:thick;
+    cursor:pointer;
+}
+.fb-icon{
+    height: 24px;
+    width: 24px;
+    
+    margin-top: 30px;
+    border-radius: 100%;
+    color:beige
+}
+.twitter-icon{
+    height: 24px;
+    width: 24px;
+    
+    margin-top: 30px;
+    border-radius: 100%;
+    
+}
+.yt-icon{
+    height: 24px;
+    width: 24px;
+    
+    margin-top: 30px;
+    border-radius: 100%;
+    
+}
+.ig-icon{
+    height: 24px;
+    width: 24px;
+
+    margin-top: 30px;
+    border-radius: 100%;
+    
+}
+.spotify-icon{
+    height: 24px;
+    width: 24px;
+
+    margin-top: 30px;
+    border-radius: 100%;
+}
+.profile-icon{
+    height: 24px;
+    width: 24px;
+
+    margin-top: 30px;
+    border-radius: 100%;
+    background-color: aliceblue;
+}
+.section{
+background-color: black;
+display: flex;
+flex-direction: row;
+height:619px;
+width:100%;
+}
+.bottle-pic{
+    height:619px;
+    width:610px;    
+}
+.threeby-one{
+    height:223px;
+    width:926px;
+
+    background-color: black;
+}
+.headline{
+    width: 700px;
+}
+.brand-id{
+   color: #009b4e;
+   font-family:'aktiv';
+   font-weight: 400;
+   font-size: 80px;
+   font-stretch: extra-condensed;
+   width:926px;
+   margin-top:0px;
+   padding-top: 60px;
+   background-color: black;
+}
+.guideline-button{
+    margin-top: 50px;
+    width: 150px;
+    height:50px;
+    background-color: darkgoldenrod;
+    font-weight: bolder;
+    font-family: 'Aktiv';
+}
+.guideline-button:hover{
+    color:white;
+    background-color:black;
+    border:none;
+    cursor:pointer;
+}
+.section-2{
+    height: 1000px;
+    width:100%;
+    background-color: #fffbfb;
+}
+.video-preview{
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+.sprite-vid{
+    margin-top: 70px;
+    margin-left: 100px;
+    
+    width:600px;
+    height: 350px;
+}
+.ad-text{
+    height:50%;
+    width:50%;
+    float: left;
+}
+.motto{
+    font-family: 'Aktiv';
+    font-size: 54px;
+    font-weight: 200px;
+    padding-top:30px;
+   
+}
+.video-description{
+    font-family: 'Aktiv';
+    font-size: 30px;
+    font-weight: bolder;
+    width:700px;
+}
+.shop-button{
+    font-family:'aktiv';
+    font-weight: bolder;
+    background-color: rgb(243, 189, 52);
+    height:30px;
+    width:130px;
+    align-items: center;
+    margin-top: 70px;
+    border:none;
+    cursor:pointer;
+    }
+    .shop-button:hover{
+        background-color: black;
+        color: white;
+    }
+.section2-div3{
+    height: 500px;
+    width: 800px; 
+    margin-top: 40px;
+}
+.motto-2{
+    color: #009b4e;
+    font-family:'Aktiv';
+    font-size:60px;
+    margin-left:90px;
+    margin-top: 50px;
+}
+.section2-div4{
+    height: 500px;
+    width: 800px;   
+    float: right;
+}
+.bottle-pic2{
+    height:100%;
+    width: 80%;   
+    margin-left:50px ; 
+    margin-bottom: 100px;  
+    background-color: white;
+}
+.footer{
+    width:100%;
+    height:419px;
+    background-color: #009b4e;
+    display:flex;
+    justify-content: space-around;
+}
+.logo-print{
+    height:50%;
+    width:160px;
+    margin-top: 30px;
+    
+}
+.logo-2{
+    width:160px;
+   padding-top: 100px;
+   padding-left: 45px;
+}
+.social-link{
+    height:50%;
+    width:160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(254, 254, 254);
+   
+}
+.social-linkhead{
+    font-family: 'aktiv';
+    color: white;
+    margin-bottom: 80px;
+    margin-top:60px;
+}
+.social-hov img:hover{
+    transform: scale(1.5);
+}
+
+.products-div{
+    
+    width:auto;
+    font-family: 'aktiv';
+    color:white;
+    margin-right: 100px;
+}
+.give-hov p:hover{
+    color:black;
+}
